@@ -57,6 +57,22 @@ header ul li a{
   text-decoration: none;
 }
 
+
 form{
     color: #F5EDED;
+    padding: 25px;
+
+}
+#contact input[type="text"], #contact input[type="email"], #contact textarea {
+    background-color: #F5EDED;
+    display: block;
+    width: 100%;
+}
+
+
+@media (max-width:600px)
+{
+    header ul{
+        flex-direction: column;
+    }
 }
