@@ -70,11 +70,28 @@ form{
 }
 
 #projects{
-    background-color: #D72323;
+    background-color: #3E3636;
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    grid-template-rows: auto;
+    grid-template-rows: 50%;
+    height: 1000px;
+    padding: 16px;
 }
+.projectcard{
+    background-color: rgb(71, 90, 64);
+    width: 50%;
+    height: 90%;
+    
+    min-height: 90%;
+    max-height: 90%;
+    /* min-height: 100%; */
+    transition: width 2s;
+    padding: 16px;
+}
+.projectcard:hover {
+    width: 90%;
+}
+
 
 @media (max-width:600px)
 {
