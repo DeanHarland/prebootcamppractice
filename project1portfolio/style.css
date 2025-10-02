@@ -74,22 +74,49 @@ form{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-template-rows: 50%;
-    height: 1000px;
+    height: auto;
     padding: 16px;
 }
 .projectcard{
     background-color: rgb(71, 90, 64);
     width: 50%;
     height: 90%;
-    
-    min-height: 90%;
-    max-height: 90%;
+    min-width: 300px;
+    /* min-height: 90%;
+    max-height: 90%; */
     /* min-height: 100%; */
     transition: width 2s;
     padding: 16px;
+    position: relative;
+}
+.projectcard .showntext {
+    max-width: 300px;
+    min-width: 300px;
+    opacity: 1;
+}
+.projectcard:hover .showntext {
+    opacity: 0;
+    transition: opacity 1s;
 }
 .projectcard:hover {
     width: 90%;
+}
+.projectcard:hover .hiddentext{
+    display: block;
+    opacity: 1;
+    width: 60%;
+    transition: display 2s;
+    transition: opacity 2s;
+}
+.hiddentext{
+    display: none;
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: 0;
+    transition: display 2s;
+    transition: opacity 2s;
+
 }
 
 
@@ -98,4 +125,9 @@ form{
     header ul{
         flex-direction: column;
     }
+
+    #projects{
+        grid-template-columns: 1fr;
+    }
+
 }
