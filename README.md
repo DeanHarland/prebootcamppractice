@@ -8,3 +8,6 @@ Week 1:
 
     Day2:
     Today I felt very unsure on my CSS as yesterdays project was very unappealing so with the help of ChatGPT, I asked it to give me several tasks to work on regarding CSS. It mainly was Flex boxs and grids. This felt like a productive day as it was the first time i was properly and effectively using ChatGPT as a learning tool.
+
+    Day3:
+    Today I carried on with the practice tasks set by ChatGPT. It invloved finishing up creating a basic, pro and premium pricing plan, each with its own colors and sitting nicely next to each other. I created 2 of the same pricing plan, 1 using Flex box and 1 using grid. I then moved onto working with transition and making my project more appealing. Creating a profile card that expanded when hoverd on aswell as a loading/progress bar that filled up. After this I used what I learnt today to improve the projects section of my portfolio project.
