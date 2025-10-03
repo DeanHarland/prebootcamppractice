@@ -12,4 +12,8 @@ Today I felt very unsure on my CSS as yesterdays project was very unappealing so
 
 ### Day3:
 Today I carried on with the practice tasks set by ChatGPT. It invloved finishing up creating a basic, pro and premium pricing plan, each with its own colors and sitting nicely next to each other. I created 2 of the same pricing plan, 1 using Flex box and 1 using grid. I then moved onto working with transition and making my project more appealing. Creating a profile card that expanded when hoverd on aswell as a loading/progress bar that filled up. After this I used what I learnt today to improve the projects section of my portfolio project.
-I'm still a lot of practice with positions, so tomorrow I will aim to practice this.
+I still need a lot of practice with positions, so tomorrow I will aim to practice this.
+
+### Day4:
+I started off today by completing 7 css postitioning tasks set by ChatGPT, it made alot more sense after completing them. However using the effectivley in my projects is still hard, I think im missing something. After this I decided I would do another project to put everything i've learnt together. I landed on creating a product page for an energy drink called TIGER ENERGY. This went well for the most part and I was able to create each section with relativly ease, my css is still poor though as the site looked bad. It still is an improvment from my portfolio site. I asked chat gpt to help me with the CSS and setttled on a black and orange approach.
+I still need practice with css but this will come with time, I will do a few tasks tomorrow to do with css and then move onto javascript so i can get that underway.
