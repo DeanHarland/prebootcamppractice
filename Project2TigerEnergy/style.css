@@ -1,12 +1,33 @@
+
+
 html{
-    background-color: lightgrey;
+    /* background-color: #FF6F00; */
+    background-color:   #121212;
+
 }
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: normal;
+}
+h1 {
+    font-size: 3rem;
+}
+h2 {
+    font-size: 2.5rem;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 /* HEADER SECTION */
 .mainheader{
     display: flex;
     justify-content: space-between;
     /* width: 98%; */
-    border: 2px solid black;
+    border: 2px solid #FF6F00;
+    color: #FF6F00;
     padding: 8px;
     height: 1rem;
     min-height: 40px;
@@ -24,31 +45,179 @@ html{
     color: red;
 }
 
+
 /* HERO SECTION */
 #herosection {
     min-height: 80vh;
-    border: 2px solid black;
+    border: 2px solid #FF6F00;
     display: flex;
+    color: #FF6F00;
 
 }
 #herosection div{
     justify-content: center;
     align-items: center;
-    background-color: grey;
     height: 50%;
 }
+
 
 /* FEATURES SECTION */
 #features{
     display: grid;
     min-height: 40vh;
-    border: 3px solid black;
-    grid-template-columns: repeat(3,1fr);
-    gap: 20px 20px;
+    border: 3px solid #FF6F00;
+    grid-template-columns: 1fr;
+    gap: 1rem;
     padding: 16px;
+    color: #FF6F00;
     
 }
 .featurescard{
-    border: 1px solid blue;
+    border: 1px solid #FF6F00;
+    min-height: 20vh;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.featurescard:hover{
+    background-color: orange;
+    color: black;
+    transform: translateY(-10px) scale(1.05);
+    box-shadow: 0 10px 20px #FF6F00;
+}
 
+
+/* PRICING SECTION */
+#pricing{
+    display: grid;
+    grid-template-columns: 1fr;
+    min-height: 40vh;
+    border: 3px solid #FF6F00;
+    gap: 0.5rem;
+    padding: 16px;
+    color: #FF6F00;
+}
+.pricingcard{
+    border: 2px solid #FF6F00;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+#basicdrink:hover{
+    background-color: coral;
+    color: black;
+    transform: translateY(-10px) scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+#prodrink:hover{
+    background-color: orange;
+    color: black;
+    transform: translateY(-10px) scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+#premiumdrink:hover{
+    background-color: gold;
+    color: black;
+    transform: translateY(-10px) scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+
+/* CONTACT SECTION */
+#contact{
+    display: flex;
+    border: 3px solid #FF6F00;
+    padding: 8px;
+}
+#contacttext{
+    width: 25%;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    font-weight: 100;
+}
+form {
+    max-width: 500px;       /* Form won’t stretch too wide */
+    margin: 50px auto;      /* Center horizontally, add top/bottom spacing */
+    padding: 20px;          /* Space inside form */
+    background-color: #f9f9f9; /* Light background for contrast */
+    border-radius: 10px;    /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+}
+/* Each input group spacing */
+.form-group {
+    display: flex;           /* Flex for vertical stacking of label + input */
+    flex-direction: column;  /* Stack label on top of input */
+    margin-bottom: 15px;     /* Space between fields */
+}
+/* Label styling */
+label {
+    margin-bottom: 5px;      /* Small space between label and input */
+    font-weight: bold;
+}
+
+/* Input & textarea styling */
+input, textarea {
+    padding: 10px;           /* Inner spacing for text */
+    border: 1px solid #ccc;  /* Light gray border */
+    border-radius: 5px;      /* Rounded corners */
+    font-size: 16px;
+    transition: border-color 0.3s, box-shadow 0.3s; /* Smooth focus effect */
+}
+
+/* Input & textarea focus effect */
+input:focus, textarea:focus {
+    border-color: #007BFF;   /* Highlight border */
+    box-shadow: 0 0 5px rgba(0,123,255,0.5); /* Subtle glow */
+    outline: none;            /* Remove default outline */
+}
+
+/* Button styling */
+button {
+    padding: 12px 20px;       /* Size of button */
+    background-color: #007BFF; /* Blue background */
+    color: white;
+    border: none;             /* Remove default border */
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s; /* Smooth hover */
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Make textarea taller */
+textarea {
+    min-height: 100px;
+    resize: vertical; /* Allows user to expand vertically */
+}
+
+
+/* FOOTER SECTION */
+footer{
+    display: flex;
+    border: 3px solid #FF6F00;
+    color: #FF6F00;
+}
+
+/* Tablet */
+@media (min-width: 600px) {
+  #features {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  #pricing{
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+/* Desktop */
+@media (min-width: 900px) {
+  #features {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  #pricing{
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
