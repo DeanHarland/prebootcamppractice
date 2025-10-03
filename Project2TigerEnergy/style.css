@@ -1,0 +1,54 @@
+html{
+    background-color: lightgrey;
+}
+/* HEADER SECTION */
+.mainheader{
+    display: flex;
+    justify-content: space-between;
+    /* width: 98%; */
+    border: 2px solid black;
+    padding: 8px;
+    height: 1rem;
+    min-height: 40px;
+}
+.logotext{
+    /* padding: 8px; */
+}
+.headernav{
+    display: absolute;
+    right: 0;
+    padding-top: 8px;
+
+}
+.headernav a:hover  {
+    color: red;
+}
+
+/* HERO SECTION */
+#herosection {
+    min-height: 80vh;
+    border: 2px solid black;
+    display: flex;
+
+}
+#herosection div{
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    height: 50%;
+}
+
+/* FEATURES SECTION */
+#features{
+    display: grid;
+    min-height: 40vh;
+    border: 3px solid black;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px 20px;
+    padding: 16px;
+    
+}
+.featurescard{
+    border: 1px solid blue;
+
+}

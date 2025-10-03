@@ -26,11 +26,22 @@ ul li {
 }
 
 header {
+    z-index: 1;
+    display: flex;
     color: #F5EDED;
-    background-color: #000000;
+    /* background-color: #000000; */
+    background-color: red;
     position: sticky;
+    height: 50px;
     top: 0;
     width: 100%;
+}
+header h1{
+    position: absolute;
+
+    left: 0;
+    padding-left: 8px;
+    
 }
 header a:visited {
     color: #F5EDED;
@@ -45,7 +56,10 @@ header ul {
     margin: 0;
     padding: 0;
     display: flex;
+    position: absolute;
+    right: 0;
     border: 1px solid #3E3636;
+    height: 100%;
 }
 header ul li {
     float: left;
@@ -122,8 +136,8 @@ form{
 
 @media (max-width:600px)
 {
-    header ul{
-        flex-direction: column;
+    header h1{
+        display: none;
     }
 
     #projects{
