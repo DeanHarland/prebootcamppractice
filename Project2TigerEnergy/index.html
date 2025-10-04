@@ -6,12 +6,12 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap" rel="stylesheet">
-
+    <link rel="icon" href="images/tigerlogo.jpg">
 </head>
 <body>
     <!-- header with logo text and navigation -->
     <header class="mainheader">
-        <div class="logotext"> <p>TIGER ENERGY</p></div>
+        <img src="images/tigerlogo.jpg" alt="the logo of tiger energy brand" class="logotext"> 
         <nav class="headernav">
                 <a href="Home">Home</a>
                 <a href="Products">Products</a>
@@ -110,6 +110,14 @@
         <a href="social.com">linktre</a>
     </footer>
 
+
+    <script>
+        const hamburger = document.querySelector('.hamburger');
+        const headernav = document.querySelector('.headernav');
+
+        hamburger.addEventListener('click', () => {headernav.classList.toggle('active'); }); 
+
+    </script>
 
     
 </body>
