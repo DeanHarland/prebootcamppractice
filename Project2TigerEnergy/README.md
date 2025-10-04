@@ -13,6 +13,9 @@ This project is a product site for a fake energy brand tiger energy. This uses a
 - Contact Form
 - Responsive navigation bar
 
+## Screenshot
+![Portfolio Screenshot](./tigerenergyscreenshot.png)
+
 ## How to Run
 1. Clone the repository
 2. Open index.html in your browser
