@@ -120,6 +120,18 @@ body {
     box-shadow: 0 10px 20px rgba(0,0,0,0.2);
 }
 
+/* BUTTON */
+button {
+    border-radius: 10px;
+
+}
+button:hover{
+    box-shadow: 5px 5px 10px #FF6F00;
+    color: black;
+    background-color: #6298f0;
+    transform: translateY(-10px) scale(1.2);
+}
+
 
 /* CONTACT SECTION */
 #contact{
@@ -135,6 +147,7 @@ body {
     border-radius: 10px;
     background-color: #f9f9f9;
     font-weight: 100;
+    padding: 8px;
 }
 form {
     max-width: 500px;       /* Form won’t stretch too wide */
@@ -173,7 +186,7 @@ input:focus, textarea:focus {
 }
 
 /* Button styling */
-button {
+#contact button {
     padding: 12px 20px;       /* Size of button */
     background-color: #007BFF; /* Blue background */
     color: white;
@@ -185,7 +198,7 @@ button {
 }
 
 /* Button hover effect */
-button:hover {
+#contact  button:hover {
     background-color: #0056b3; /* Darker blue on hover */
 }
 
@@ -202,6 +215,14 @@ footer{
     border: 3px solid #FF6F00;
     color: #FF6F00;
 }
+
+
+
+
+
+
+
+
 
 /* Tablet */
 @media (min-width: 600px) {
