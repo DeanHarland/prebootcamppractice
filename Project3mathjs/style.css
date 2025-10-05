@@ -15,42 +15,42 @@
 }
 
 /* Questions */
-.questiondisplay{
+#questiondisplay{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 2em;
 
 }
 
 /* Input form and button */
-.formdiv{
+#formdiv{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 2em;
 }
-.formdiv input{
+#fanswer{
     height: 100%;
 }
-.formdiv button{
+#answerbutton{
     height: 100%;
 }
 
 /* correct or incorrect section */
-.feedbackarea{
-    display: none;
+#feedbackarea{
+    /* display: none; */
     font-family: Arial, Helvetica, sans-serif;
     font-size: 2em;
-    color: green;
 
 }
-
+#feedbackarea.correct{color: green;}
+#feedbackarea.incorrect{color: red;}
 /* users score */
-.score{
+#score{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 2em;
 }
 
 /* next button */
-.nextbutton{
-    display: none;
+#nextbutton{
+    /* display: none; */
 }
 
 
