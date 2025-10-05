@@ -1,0 +1,73 @@
+
+
+/* The container that has quiz items in it */
+.quizcontainer{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid black;
+    row-gap: 10%;
+    background-color: beige;
+}
+
+/* Questions */
+.questiondisplay{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+
+}
+
+/* Input form and button */
+.formdiv{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+}
+.formdiv input{
+    height: 100%;
+}
+.formdiv button{
+    height: 100%;
+}
+
+/* correct or incorrect section */
+.feedbackarea{
+    display: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    color: green;
+
+}
+
+/* users score */
+.score{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+}
+
+/* next button */
+.nextbutton{
+    display: none;
+}
+
+
+
+@media (min-width: 600px)
+{
+    .questiondisplay{
+    font-size: 3em;
+    }
+
+}
+
+@media (min-width: 900px)
+{
+    .questiondisplay{
+    font-size: 4em;
+    }
+
+
+}
