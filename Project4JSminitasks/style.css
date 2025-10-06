@@ -38,3 +38,11 @@ body{
 #number-variable{
     font-size: xx-large;
 }
+
+/* Digital clock section */
+
+#digital-clock-section{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
