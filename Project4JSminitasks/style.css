@@ -46,6 +46,21 @@ body{
     display: flex;
     flex-direction: column;
     text-align: center;
+
+
+}
+
+/* To Do List section */
+#to-do-list-section{
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    font-size: x-large;
+}
+#to-do-list-section ul{
+    list-style: none;
+    justify-content: space-between;
 }
 
 .done{
@@ -53,4 +68,15 @@ body{
     text-decoration: line-through;
     opacity: 0.6;
     transition: 0.3;
+}
+
+/* Random Joke Generator section */
+
+#random-joke-section{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    align-content: center;
+    font-size: xx-large;
 }
