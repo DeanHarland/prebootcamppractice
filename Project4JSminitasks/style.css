@@ -80,3 +80,22 @@ body{
     align-content: center;
     font-size: xx-large;
 }
+
+/* Rock Paper Scissor Section */
+#rps-section{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    align-content: center;
+    font-size: xx-large;
+}
+
+#rps-header{
+    display: flex;
+    
+}
+#button-container button{
+    width: 20vw;
+    height: 20ch;
+}
