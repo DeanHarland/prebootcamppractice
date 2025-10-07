@@ -26,3 +26,6 @@ I went to carry on watching javascript udemy course but I couldnt bring my self 
 
 ### Day 7
 I cracked on with the mini tasks today. I completed 2 of the mini tasks, counterapp and digital clock. Both made sense and i get into the habit of calling the right items from getdocumentid. I'm also getting used to the use of functions and variables in JS. I also found i keep forgetting to end my lines with ; . My problem solving is still up to date and i'm able to find the problems I encounter pretty quickly. Tomorrow I will carry on with the other 3 tasks and make a plan for bootstrap.
+
+### Day 8
+finished off the other 3 JS mini tasks today. I'm getting more confident in what to call and when. I enjoyed making the rock paper scissors game as i got to use lots of if statments. One problem I keep encountering is calling a buttons function on load istead of () => before it. I also created a project and used bootstrap for the first time. It's sad but also funny how much better a good looking css is compared to mine. Tomorrow I think I will go back through the jsmini tasks and make the css look better to get some practice in even though bootstrap is probably going to be the way forward. 
