@@ -3,6 +3,7 @@
 
 body{
     background-color: #decca9;
+    color: black;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 
 }
@@ -45,4 +46,11 @@ body{
     display: flex;
     flex-direction: column;
     text-align: center;
+}
+
+.done{
+    color: red;
+    text-decoration: line-through;
+    opacity: 0.6;
+    transition: 0.3;
 }
