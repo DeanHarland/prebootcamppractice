@@ -29,3 +29,6 @@ I cracked on with the mini tasks today. I completed 2 of the mini tasks, counter
 
 ### Day 8
 finished off the other 3 JS mini tasks today. I'm getting more confident in what to call and when. I enjoyed making the rock paper scissors game as i got to use lots of if statments. One problem I keep encountering is calling a buttons function on load istead of () => before it. I also created a project and used bootstrap for the first time. It's sad but also funny how much better a good looking css is compared to mine. Tomorrow I think I will go back through the jsmini tasks and make the css look better to get some practice in even though bootstrap is probably going to be the way forward. 
+
+## Day 9 
+Today I did some learning on rem, em vh to better under stand them. I then used Chatgpt to work through some python. As i've used it in the past most things seemed familiar and i was easily able to craete a simple to do list. I then decided to follow chatgpt set up and make a python to do list that used postgreSQL. Although I would still need to follow a guide when making another one, I understand the majority of the content put.
