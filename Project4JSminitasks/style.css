@@ -17,7 +17,7 @@ body{
     background-color: #decca9;
     color: black;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-
+    font-size: clamp(8px, 2vw, 16px);
 }
 #selection-buttons{
     display: flex;
@@ -68,7 +68,7 @@ body{
     justify-content: center;
     align-content: center;
     text-align: center;
-    font-size: x-large;
+ 
 }
 #to-do-list-section ul{
     list-style: none;
